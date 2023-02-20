@@ -18,4 +18,4 @@ const Navigation = () => {
 
 export default Navigation;
 
-// make this component use Link and routes 
+// make this component use Link and routes  instead of a tags
