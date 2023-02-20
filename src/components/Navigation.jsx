@@ -3,13 +3,13 @@ const Navigation = () => {
     <div className="navigation">
       <ul>
         <li>
-          <a href="/about">About us</a>
+          <a href="#about">About us</a>
         </li>
         <li>
-          <a href="/work">Our works</a>
+          <a href="#work">Our works</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>

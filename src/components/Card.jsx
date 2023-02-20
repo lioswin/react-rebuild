@@ -1,9 +1,9 @@
 const Card = (props) => {
-    const {title,title2,description}=props
+    const {image,title,title2,description}=props
     return ( 
         <div className="areastaff">
               <div className="image-staff1">
-                <image src="./images/team-1.jpg"/>
+                <img src={image} alt="staff"/>
               </div>
               <div className="staffcontent">
                   <h3>{title}</h3>

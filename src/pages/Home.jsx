@@ -1,13 +1,13 @@
 import Navigation from "../components/Navigation";
 import Social from "../components/Social";
-
+import logo from "../images/ramio-logo.svg"
 const Home = () => {
     return ( 
       <section className="home" id="home">
         <div className="content">
           <div className="top">
            <div className="intro-logo"> 
-            <image src=""/>   
+            <img src={logo} alt="logo"/>   
            </div>
            <Navigation/>
           </div>
