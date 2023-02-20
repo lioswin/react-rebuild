@@ -1,9 +1,10 @@
+import {Link} from "react-router-dom";
 
 const Title = (props) => {
     const {title,titleSmall,titleItallic,paragraph} = props;
     return ( 
     <div className="area1">
-    <a href="#home">arrow</a>
+    <Link to="/">arrow</Link>
     <div>
       <h1>{title}</h1>
     </div>
