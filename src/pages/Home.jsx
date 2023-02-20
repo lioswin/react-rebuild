@@ -1,6 +1,7 @@
 import Navigation from "../components/Navigation";
 import Social from "../components/Social";
 import logo from "../images/ramio-logo.svg"
+import { Link } from "react-router-dom";
 const Home = () => {
     return ( 
       <section className="home" id="home">
@@ -21,7 +22,7 @@ const Home = () => {
              <p className="headline-text">
                We are preparing something amazing and exciting for you. Special surprise for our subscribers only.
              </p>
-            <a href="www">Notify Me</a>
+            <Link to="/">Notify Me</Link>
             </div>
            <Social/>
           </div>

@@ -1,5 +1,4 @@
-const Card = (props) => {
-    const {image,title,title2,description}=props
+const Card = ({image,title,title2,description}) => {
     return ( 
         <div className="areastaff">
               <div className="image-staff1">
